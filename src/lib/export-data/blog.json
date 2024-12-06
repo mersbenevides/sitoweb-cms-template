@@ -10,7 +10,7 @@
     },
     {
         "title": "Mastering Asynchronous Communication in Remote Teams",
-        "cover": "/media/premium_photo-1731358673371-2a521793f27d.avif",
+        "cover": "https://raw.githubusercontent.com/mersbenevides/sitoweb-cms-template/refs/heads/main/static/media/premium_photo-1731358673371-2a521793f27d.avif",
         "author": "Marcus Rodriguez",
         "readingTime": 7,
         "location": "Remote",
@@ -26,7 +26,7 @@
     },
     {
         "title": "Running Effective Team Meetings: A Practical Guide",
-        "cover": "/media/premium_photo-1731358673371-2a521793f27d.avif",
+        "cover": "https://raw.githubusercontent.com/mersbenevides/sitoweb-cms-template/refs/heads/main/static/media/premium_photo-1731358673371-2a521793f27d.avif",
         "author": "James Wilson",
         "readingTime": 8,
         "meetingTypes.0": "Daily Standups",
