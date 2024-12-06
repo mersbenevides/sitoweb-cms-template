@@ -4,10 +4,7 @@ content: >-
   Hai mai avuto un’idea brillante e poi ti sei chiesto: “E adesso cosa faccio?”
   Non sei solo. Molte persone trovano difficile passare dall’intuizione
   all’azione, ma con un approccio strutturato è possibile trasformare una
-  semplice idea in realtà.  
-    
-
-  ![](/media/Designer%20(5).jpeg)
+  semplice idea in realtà
 
 
   ### 1\. **Credi nella tua idea**
@@ -86,4 +83,5 @@ content: >-
 
   Se hai un’idea nel cassetto, inizia oggi: il futuro aspetta le tue
   innovazioni!
+cover: /media/Designer (5).jpeg
 ---
