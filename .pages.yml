@@ -1,0 +1,153 @@
+media:
+  input: static/media
+  output: /media
+
+content:
+  - name: home
+    label: Home page
+    path: src/lib/site/home.json
+    type: file
+    fields:
+      - name: hero_title
+        label: Homepage title
+        type: string
+        required: true
+      - name: hero_description
+        label: Homepage description
+        type: string
+        required: true
+      - name: hero_cover
+        label: Cover image
+        type: image
+        required: true
+      - name: introduction
+        label: Introduction
+        type: rich-text
+      - name: features
+        label: Features
+        type: object
+        list: true
+        fields:
+          - name: emoji
+            label: Emoji
+            type: string
+            required: true
+          - name: title
+            label: Feature title
+            type: string
+            required: true
+          - name: description
+            label: Feature description
+            type: rich-text
+            required: true
+
+  - name: articoli
+    label: Articoli
+    path: src/lib/site/articoli
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: content
+        label: Content
+        type: rich-text
+        required: true
+
+  - name: blog
+    label: Blog
+    path: src/lib/site/blog
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: content
+        label: Content
+        type: rich-text
+        required: true
+
+  - name: eventi
+    label: Eventi
+    path: src/lib/site/eventi
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: content
+        label: Content
+        type: rich-text
+        required: true
+      - name: cover
+        label: Cover image
+        type: image
+      - name: date
+        label: Date
+        type: string
+      - name: time
+        label: Time
+        type: string
+      - name: location
+        label: Location
+        type: string
+
+  - name: about
+    label: About
+    path: src/lib/site/about.json
+    type: file
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: content
+        label: Content
+        type: rich-text
+
+  - name: settings
+    label: Site settings
+    path: src/lib/site/settings.json
+    type: file
+    fields:
+      - name: title
+        label: Website title
+        type: string
+        required: true
+      - name: description
+        label: Website description
+        type: string
+      - name: logo
+        label: Site logo
+        type: image
+      - name: menu
+        label: Navigation Menu
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Menu Label
+            type: string
+            required: true
+          - name: href
+            label: Menu Link
+            type: string
+            required: true
+      - name: colors
+        label: Colori
+        type: object
+        fields:
+          - name: base
+            label: Background color
+            type: string
+          - name: base-content
+            label: Text color
+            type: string
+          - name: accent
+            label: Accent background color
+            type: string
+          - name: accent-content
+            label: Accent text color
+            type: string
